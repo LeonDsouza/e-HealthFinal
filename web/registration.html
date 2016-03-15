@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Semantic-UI-1.0/dist/semantic.min.css" type="text/css">
+        <link rel="stylesheet" href="css/constant1.css" type="text/css">
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/constant.js"></script>
+        <script src="js/codejs.js"></script>
+
+        <script src="Semantic-UI-1.0/dist/semantic.min.js"></script>
+        <link href="css/cdn.css" rel="stylesheet">
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="myForm" onsubmit="return validate()" method="post" action="RegisterServlet.do">
+            First Name<input type="text" name="fname" > <br>
+            Last Name<input type="text" name="lname" > <br>
+            Street<input type="text" name="street" > <br>
+            AptNo<input type="text" name="aptno" > <br>
+            State<input type="text" name="state" > <br>
+            City<input type="text" name="city" > <br>
+            Zip Code<input type="text" name="zip" > <br>
+            Phone<input type="text" name="phone" >
+            E-mail<input type="email" name="email" > <br>
+            <input type="radio" name="sex"> Male <br>
+            <input type="radio" name="sex"> Female <br>
+            DOB<input type="date" name="dob"> <br>
+            <select name="type" >
+                <option> Patient</option>
+            </select> <br>
+            <input type="submit" name="submit" value="submit">
+             
+        </form>
+        
+    </body>
